@@ -1,3 +1,6 @@
+#find the highest salary in each department 
+
+
 # Databricks notebook source
 from pyspark.sql.window import Window
 from pyspark.sql.functions import dense_rank,col,asc,desc
